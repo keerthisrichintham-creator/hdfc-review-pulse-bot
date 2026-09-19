@@ -1,0 +1,35 @@
+Subject: Weekly Pulse: HDFC MFOnline Investors - NAV & Login Account for 70% Complaints [Action Needed]
+
+To: Product Team, Support Team
+From: App Review Insights Analyser (LIP 5)
+
+Hi team,
+
+Here is this week's Play Store review pulse for HDFC MFOnline Investors.
+
+HEALTH STATUS: CRITICAL
+Reviews analyzed: 40 (Jun 28 - Sep 19, 2026), Play Store only, PII removed.
+
+TOP 3 ISSUES
+1. NAV & Portfolio Display - 40% - NAV date/value missing, portfolio amount rounded instead of exact, XIRR per scheme gone since the last update.
+2. Login & Authentication - 30% - OTP delays, accounts blocked after 3 failed attempts, logout leading to network-error loops.
+3. Payments & Transactions - 15% - SIP deductions not reflecting in-app, redemptions stuck for 3+ days.
+
+Together, NAV & Portfolio Display and Login & Authentication account for 70% of all complaints this week.
+
+WHAT USERS ARE SAYING (anonymized)
+- "NAV not showing anywhere after new update. Cannot see today's NAV or units."
+- "Every time I logout it says network error. OTP not received. Login loop."
+- "SIP payment deducted but not showing in app. Very frustrating."
+
+3 ACTIONS FOR NEXT WEEK
+1. Product (P0): Restore the NAV Dashboard - show NAV date, NAV value, exact amount, units, and XIRR per scheme.
+2. Support (P0): Update the LIP-4 RAG Bot (https://hdfc-bot.streamlit.app) with 3 intents - "Where is NAV?", "Login failure?", "SIP deducted but not showing?" - to give instant workarounds and deflect roughly 50% of support tickets until the permanent fix ships.
+3. Engineering (P1): Fix the session-persistence bug causing logout to network-error loops. Add retry logic, a clear error message, and auto-unblock after 30 minutes.
+
+LIP 5 -> LIP 4 connection: LIP 5 (this review analysis) identifies the problems; LIP 4, the RAG Bot at https://hdfc-bot.streamlit.app, delivers the solution by answering these exact user questions instantly.
+
+Please let me know if you'd like a walkthrough of the full theme breakdown.
+
+Thanks,
+App Review Insights Analyser
